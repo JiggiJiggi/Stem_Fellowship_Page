@@ -1,0 +1,67 @@
+.hero {
+    height: 100vh; /* Make the hero section cover the full viewport height */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('/src/assets/images/hero_background.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.hero-content {
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.hero-buttons .btn {
+    background-color: #17a2b8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.hero-buttons .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Blue button */
+.hero-buttons .btn:nth-child(1) {
+    background-color: #17a2b8; /* Blue */
+    color: white;
+}
+
+/* Transparent button */
+.hero-buttons .btn:nth-child(2) {
+    background-color: transparent;
+    color: #ffffff; /* Blue text */
+    border: 2px solid #ffffff; /* Blue border */
+}
+

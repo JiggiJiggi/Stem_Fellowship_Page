@@ -1,0 +1,30 @@
+.sponsors {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+    background-color: #fff;
+    width: 100%; /* Full width */
+}
+
+.sponsors img {
+    width: 120px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.sponsors img:hover {
+    opacity: 1;
+}
+
+/* Responsive adjustment for smaller screens */
+@media (max-width: 768px) {
+    .sponsors {
+        flex-direction: column;
+    }
+
+    .sponsors img {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+}
